@@ -1,0 +1,184 @@
+#!/bin/sh
+
+f_new() {
+  ch=1
+  while [[ -f "p/$ch/raw.md" ]]; do
+      ((ch++))
+  done
+  timestamp="$(date +%s)"
+  mkdir -p "p/$ch"
+  echo -e "<!--\nname: \npeek: \ntags: draft \nchapter: $ch \ndate: $timestamp\n-->" > "p/$ch/raw.md"
+  $EDITOR "p/$ch/raw.md"
+}
+
+f_meta(){
+  local kvpair_re='(.*):[[:space:]](.*)'
+  declare -A meta
+  while read -r line; do
+    [[ $line == "-->" ]] && break
+    if [[ $line =~ $kvpair_re ]]; then
+      meta+=(["${BASH_REMATCH[1]}"]="${BASH_REMATCH[2]}")
+    fi
+  done < "p/$1/raw.md"
+  local out
+  for key in "$@"; do
+    out+="${meta["$key"]}	"
+  done
+  echo "${out::-1}"
+}
+
+f_edit() {
+  raw="$(for p in "p/"*; do
+    if [ "${p##*/}" != "index.html" ]; then
+      f_meta "${p##*/}" date name peek tags
+    fi
+  done | awk -F "	" '{ print $1" "$2" "$3" ("$4")" }' | fzf)"
+  [[ -n "$raw" ]] && $EDITOR "$(awk -F " " '{ print "p/"$1"/raw.md" }' <<< "$raw")"
+}
+
+render() {
+  pandoc --from markdown-smart-fancy_lists+pipe_tables+all_symbols_escapable+raw_html+inline_notes+fenced_divs --to html <<< "$*"
+}
+
+t_body() {
+  echo -n "<!doctype html>
+<html lang='en'>
+  <head>
+    <meta charset='utf-8'>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='shortcut icon' href='/static/favicon.png' type='image/x-icon'>
+    <link href='/static/style.css' rel='stylesheet' type='text/css'>
+    <title>${1}</title>
+  </head>
+  <body>
+    <nav class='feed'>
+      <div>
+        <a href='/' class='bold'>home</a>
+        <a href='/p'>index</a>
+        <a href='/about' class='bold'>about</a>
+        <input type='text' id='s' placeholder='search'/>
+      </div>
+      <div>
+        <a href='/atom.xml'>rss</a>
+        <a href='#' class='toggle'>dark mode</a>
+      </div>
+    </nav>
+    <span style='white-space: nowrap;'>placeholder tagline idk</span>
+    ${2}
+    <script type='module' src='/static/script.js'></script>
+  </body>
+</html>
+  "
+}
+
+t_tags() {
+  read -r -a tags <<< "$(f_meta "$1" tags)"
+  local out
+  for tag in "${tags[@]}"; do
+    out+="#<a href='/p/?query=%23$tag' class='bold'>$tag</a> "
+  done
+  echo -n "${out::-1}"
+}
+
+t_date() {
+  echo "<time datetime='$(date '+%Y-%m-%d %H:%M' -d "@$(f_meta "$1" date)")'>$(date '+%d%m%y' -d "@$(f_meta "$1" date)")</time>"
+}
+
+t_card() {
+  echo -n "<section>
+        <span class='chapter'>chapter $(f_meta "$1" chapter)</span>
+        <a href='/p/$1' class='bold'>$(f_meta "$1" name)</a>
+        <div>$(f_meta "$1" peek)</div>
+        <span>$(t_tags "$1")</span>
+      </section>"
+}
+
+t_post() {
+  local name ; name="$(f_meta "$1" name)"
+  t_body "$name" "<main>
+    <article>
+      <h1>$name</h1>
+      <span class='chapter'>Chapter$(f_meta "$1" chapter)</span>
+      $(render "$(<"p/$1/raw.md")")
+      <span class='meta'>$(t_date "$1") $(t_tags "$1")</span>
+    </article>
+  </main>
+  "
+}
+
+t_rssbody() {
+  echo -n "<?xml version='1.0' encoding='utf-8' standalone='yes' ?>
+<feed xmlns='http://www.w3.org/2005/Atom'>
+  <title>${1}</title>
+  <link href='${2}/p/'/>
+    <link href='${2}/p/atom.xml' rel='self' type='application/atom+xml' />
+    <updated>$(date -Iseconds)</updated>
+  <author>
+    <name>${1}</name>
+  </author>
+  <generator>nue</generator>
+  <id>${2}/p/</id>
+
+  ${3}
+
+  </feed>"
+}
+
+t_rssentry() {
+  echo -n "<link rel='alternate' href='https://enceris.github.io/p/$1'/>
+        <id>https://enceris.github.io/p/$1</id>
+        <published>$(date -Iseconds -d@$1)</published>
+        <updated>$(date -Iseconds -d@$1)</updated>
+        <summary>$(f_meta "$1" peek)</summary>
+        <a href='/p/$1' class='bold'>$(f_meta "$1" name)</a>
+        <content type='html'>$(render "$(tail -n+7 p/$1/raw.md)")</content>
+        <category term='$(f_meta "$1" tags)'/>"
+}
+
+build() {
+  echo "t_body index"
+  echo "$(t_body "Kakutai" "$(render "$(<raw.md)")")" > "index.html"
+
+  echo "t_body posts index"
+  echo "$(t_body "index - Kakutai" "<main>
+      <h1>index</h1>
+      $(while read -r p; do
+          p=${p/\/raw.md/}
+          p=${p##*/}
+          [[ "$(f_meta "$p" tags)" == *"draft"* ]] || t_card "$p"
+        done < <(find p -name '*.md' -printf '%p\n' | sort -r))
+    </main>")" > p/index.html
+
+  echo "t_body about - Kakutai"
+  echo "$(t_body "about" "$(render "$(<about/raw.md)")")" > "about/index.html"
+
+  for p in "p/"*; do
+    p=${p##*/}
+    if [ $p == "index.html" ] || [ $p == "atom.xml" ]; then
+      continue
+    fi
+    if [ "p/$p/raw.md" -nt "p/$p/index.html" ] || [ "nue" -nt "p/$p/index.html" ]; then
+      echo "t_post $p"
+      echo "$(t_post "$p")" > "p/$p/index.html"
+    fi
+  done
+
+  echo "t_rssbody"
+  echo "$(t_rssbody "Kakutai" "https://enceris.github.io" "<entry>
+      <title>Kakutai</title>
+      $(while read -r p; do
+          p=${p/\/raw.md/}
+          p=${p##*/}
+          [[ "$(f_meta "$p" tags)" == *"draft"* ]] || t_rssentry "$p"
+        done < <(find p -name '*.md' -printf '%p\n' | sort -r))
+    </entry>")" > atom.xml
+}
+
+subcmd=$1 ; shift
+case $subcmd in
+  -n|new)  f_new ;;
+  -e|edit) f_edit ;;
+  -b|build) build ;;
+  -h|help) echo -e "-n or new to create a new post\n-e or edit to edit a post\n-b or build to build html." ;;
+  *) echo "static website generator" ;;
+esac

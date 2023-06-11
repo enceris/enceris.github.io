@@ -1,0 +1,316 @@
+:root {
+  --background: #f6f6f6;
+  --foreground: #111111;
+  --foreground-mild: #666666;
+  --hyperlink: #000000;
+  --hyperlink-visited: #000000;
+  --highlight: #dfdfdf;
+  --highlight-dark: #a3a3a3;
+  --highlight-mild: #eeeeee;
+  --small: 1rem;
+}
+
+@font-face {
+  font-family: Regular;
+  src: url('fonts/LibreBaskerville-Regular.ttf');
+}
+
+@font-face {
+  font-family: Bold;
+  font-weight: 600;
+  src: url('fonts/LibreBaskerville-Bold.ttf');
+}
+
+* {
+  padding: 0;
+}
+
+body {
+  font: 1.0rem/1.55 Regular, system-ui, sans-serif;
+  max-width: 86ch;
+  padding-left: calc(100vw - 100% + 1rem); /* prevent the scrollbar from shifting content */
+  padding-right: 1rem;
+  margin: max(2rem, 4vw) auto max(2rem, 4vw) auto;
+  background: var(--background);
+  color: var(--foreground);
+  overflow-x: hidden;
+}
+
+.feed {
+  margin-top: 2rem;
+  display: flex;
+  justify-content: space-between;
+}
+
+th {
+  font-family: Bold, sans-serif;
+  text-align: left;
+}
+
+section, aside, .meta {
+  margin-top: 1rem;
+}
+
+span.chapter, time {
+  color: var(--foreground-mild);
+}
+
+h1, h2, h3, h4, h5 {
+  font-weight: 400;
+  font-family: Bold, sans-serif;
+  margin: 2rem 0 1rem 0;
+}
+
+h1 {
+  margin-top: max(1.5rem, 2.5vw);
+  font-size: 2rem;
+}
+
+h2 {
+  font-size: 1.6rem;
+}
+
+h1 + h2 {
+  margin-top: 0;
+}
+
+strong {
+  font-family: Bold, sans-serif;
+}
+
+strong:before, strong:after {
+  color: var(--highlight-dark);
+}
+
+strong:before {
+  content:"「";
+}
+
+strong:after {
+  content:"」";
+}
+
+p:after {
+  color: var(--highlight-dark);
+  content:"¬";
+}
+
+li p:after {
+  content: "";
+}
+
+/* blockquote */
+
+blockquote {
+  position: relative;
+  padding-left: 1em;
+  margin: 0 0;
+}
+
+blockquote:before {
+  height: 100%;
+  overflow-y: hidden;
+  color: var(--highlight-dark);
+  content: ">\A>\A>\A>\A>\A>\A>\A>\A>\A>\A>\A>\A>\A>\A>";
+  white-space: pre-wrap;
+  position: absolute;
+  pointer-events: none;
+  margin-left: -1em;
+}
+
+/* code blocks */
+
+code {
+  font-family: monospace;
+  background: var(--highlight);
+}
+
+pre code {
+  font-family: monospace;
+  background: none;
+  white-space: pre-wrap;
+}
+
+pre {
+  white-space: pre-wrap !important;
+  background: var(--highlight-mild);
+  width: calc(50% + 50vw - 1rem);
+  margin:  1rem -1rem 1rem calc(50% - 50vw);
+  padding: 1rem 1rem 1rem calc(50vw - 50%);
+}
+
+/* lists */
+
+ul {
+  list-style-type: none;
+}
+
+ol {
+  list-style-position: inside;
+}
+
+ul li {
+  margin-left: 1rem;
+  text-indent: -1rem;
+}
+
+li + li, li ul {
+  margin-top: 0.5rem;
+}
+
+tr.header th {
+  margin-top: 0rem;
+}
+
+ul li::before {
+  content: "* ";
+  color: var(--highlight-dark);
+}
+
+ul li ul li::before {
+  content: "- ";
+  color: var(--highlight-dark);
+}
+
+ul li ul li ul li::before {
+  content: "+ ";
+  color: var(--highlight-dark);
+}
+
+/* hr */
+
+hr {
+  border: 0;
+  text-align: left;
+}
+
+hr:before {
+  content: "---";
+  color: var(--highlight-dark);
+}
+
+/* links */
+
+a {
+  color: var(--hyperlink);
+  font-family: Bold, sans-serif;
+  text-decoration: none;
+}
+
+main a:visited {
+  color: var(--hyperlink-visited);
+}
+
+/* search box */
+
+#s {
+  background: none;
+  border: none;
+  outline: none;
+  padding: 0;
+  width: 3.5em;
+  font: 1.06rem/1 Bold, sans-serif;
+}
+
+#s:not(:placeholder-shown), #s:focus {
+  width: 8em;
+  padding: 0 1ch;
+  caret-color: var(--foreground);
+  color: var(--foreground);
+}
+
+#s:placeholder-shown:not(:focus) {
+  cursor: pointer;
+}
+
+#s:placeholder-shown:focus::placeholder {
+  font-family: Regular;
+  color: var(--highlight-dark);
+}
+
+*::placeholder {
+  color: var(--hyperlink);
+  opacity: 1;
+}
+
+a, #s {
+  background-image: linear-gradient(var(--highlight), var(--highlight));
+  background-size: 100% 0.5rem;
+  background-position: bottom left;
+  background-repeat: no-repeat;
+  transition: 0.15s ease;
+}
+
+a:hover, #s:hover, #s:focus, #s:not(:placeholder-shown) {
+  background-size: 100% 100%;
+}
+
+table {
+  border-collapse: collapse;
+  margin: var(--small) auto;
+  min-width: 60%;
+}
+
+th, td {
+  padding: 0rem 0.5574rem;
+}
+
+tr.odd td {
+  background: var(--highlight-mild)
+}
+
+thead tr {
+  background: none !important;
+}
+
+th:empty, td:empty {
+  padding: 0rem;
+  width: 0.5rem;
+  background: none !important;
+}
+
+span.math {
+  background: var(--highlight);
+}
+
+span.math em {
+  font-style: normal;
+}
+
+figure img {
+  max-width: 38rem;
+  width: 100%;
+}
+
+figure {
+  margin: var(--small) 0;
+}
+
+.footnotes ol li p {
+  display: inline;
+}
+
+.footnote-ref, a.footnote-back {
+  background-image: none;
+  color: var(--hyperlink-visited);
+}
+
+.footnote-ref sup {
+  color: var(--hyperlink-visited);
+  text-decoration: underline;
+  text-decoration-color: var(--hyperlink-visited);
+  vertical-align: super;
+}
+
+* ::selection {
+  background-color: var(--hyperlink-visited);
+  color: var(--background);
+}
+
+.full-width, .full-width > * {
+  position: relative;
+  left: 50%;
+  margin-left: -47.5vw;
+  max-width: 95vw;
+  width: 95vw;
+}
