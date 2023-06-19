@@ -1,201 +1,322 @@
 <?xml version='1.0' encoding='utf-8' standalone='yes' ?>
 <feed xmlns='http://www.w3.org/2005/Atom'>
   <title>Kakutai</title>
-  <link href='https://kakutai.github.io/p/'/>
-    <link href='https://kakutai.github.io/p/atom.xml' rel='self' type='application/atom+xml' />
-    <updated>2023-06-11T19:46:12+05:30</updated>
+  <link href='https://enceris.github.io/p/'/>
+    <link href='https://enceris.github.io/p/atom.xml' rel='self' type='application/atom+xml' />
+    <updated>2023-06-19T20:36:04+05:30</updated>
   <author>
     <name>Kakutai</name>
   </author>
   <generator>nue</generator>
-  <id>https://kakutai.github.io/p/</id>
+  <id>https://enceris.github.io/p/</id>
 
   <entry>
       <title>Kakutai</title>
-      <link rel='alternate' href='https://kakutai.github.io/p/2'/>
-        <id>https://kakutai.github.io/p/2</id>
+      <link rel='alternate' href='https://enceris.github.io/p/2'/>
+        <id>https://enceris.github.io/p/2</id>
         <published>1970-01-01T05:30:02+05:30</published>
         <updated>1970-01-01T05:30:02+05:30</updated>
         <summary>	peek text</summary>
         <a href='/p/2' class='bold'>	some chapter title</a>
         <content type='html'><p>--&gt;</p>
 <p>TEST</p></content>
-        <category term='	tag'/><link rel='alternate' href='https://kakutai.github.io/p/1'/>
-        <id>https://kakutai.github.io/p/1</id>
+        <category term='	tag'/><link rel='alternate' href='https://enceris.github.io/p/1'/>
+        <id>https://enceris.github.io/p/1</id>
         <published>1970-01-01T05:30:01+05:30</published>
         <updated>1970-01-01T05:30:01+05:30</updated>
-        <summary>	placeholder text</summary>
-        <a href='/p/1' class='bold'>	PLACEHOLDER</a>
+        <summary>	The Reformer</summary>
+        <a href='/p/1' class='bold'>	The Grand Gathering</a>
         <content type='html'><p>--&gt;</p>
+<p>Chapter 1: The Grand Gathering</p>
+<p>THE REFORMER</p>
 <hr />
-<h1 id="an-h1-header">An h1 header</h1>
-<p>Paragraphs are separated by a blank line.</p>
-<p>2nd paragraph. <em>Italic</em>, <strong>bold</strong>, and
-<code>monospace</code>. Itemized lists look like:</p>
-<ul>
-<li>this one</li>
-<li>that one</li>
-<li>the other one</li>
-</ul>
-<p>Note that --- not considering the asterisk --- the actual text
-content starts at 4-columns in.</p>
-<blockquote>
-<p>Block quotes are written like so.</p>
-<p>They can span multiple paragraphs, if you like.</p>
-</blockquote>
-<p>Use 3 dashes for an em-dash. Use 2 dashes for ranges (ex., "it's all
-in chapters 12--14"). Three dots ... will be converted to an ellipsis.
-Unicode is supported. ☺</p>
-<h2 id="an-h2-header">An h2 header</h2>
-<p>Here's a numbered list:</p>
-<ol>
-<li>first item</li>
-<li>second item</li>
-<li>third item</li>
-</ol>
-<p>Note again how the actual text starts at 4 columns in (4 characters
-from the left side). Here's a code sample:</p>
-<pre><code># Let me re-iterate ...
-for i in 1 .. 10 { do-something(i) }</code></pre>
-<p>As you probably guessed, indented 4 spaces. By the way, instead of
-indenting the block, you can use delimited blocks, if you like:</p>
-<pre><code>define foobar() {
-    print &quot;Welcome to flavor country!&quot;;
-}</code></pre>
-<p>(which makes copying &amp; pasting easier). You can optionally mark
-the delimited block for Pandoc to syntax highlight it:</p>
-<div class="sourceCode" id="cb3"><pre
-class="sourceCode python"><code class="sourceCode python"><span id="cb3-1"><a href="#cb3-1" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> time</span>
-<span id="cb3-2"><a href="#cb3-2" aria-hidden="true" tabindex="-1"></a><span class="co"># Quick, count to ten!</span></span>
-<span id="cb3-3"><a href="#cb3-3" aria-hidden="true" tabindex="-1"></a><span class="cf">for</span> i <span class="kw">in</span> <span class="bu">range</span>(<span class="dv">10</span>):</span>
-<span id="cb3-4"><a href="#cb3-4" aria-hidden="true" tabindex="-1"></a>    <span class="co"># (but not *too* quick)</span></span>
-<span id="cb3-5"><a href="#cb3-5" aria-hidden="true" tabindex="-1"></a>    time.sleep(<span class="fl">0.5</span>)</span>
-<span id="cb3-6"><a href="#cb3-6" aria-hidden="true" tabindex="-1"></a>    <span class="bu">print</span> i</span></code></pre></div>
-<h3 id="an-h3-header">An h3 header</h3>
-<p>Now a nested list:</p>
-<ol>
-<li><p>First, get these ingredients:</p>
-<ul>
-<li>carrots</li>
-<li>celery</li>
-<li>lentils</li>
-</ul></li>
-<li><p>Boil some water.</p></li>
-<li><p>Dump everything in the pot and follow this algorithm:</p>
-<pre><code>find wooden spoon
-uncover pot
-stir
-cover pot
-balance wooden spoon precariously on pot handle
-wait 10 minutes
-goto first step (or shut off burner when done)</code></pre>
-<p>Do not bump wooden spoon or it will fall.</p></li>
-</ol>
-<p>Notice again how text always lines up on 4-space indents (including
-that last line which continues item 3 above).</p>
-<p>Here's a link to <a href="http://foo.bar">a website</a>, to a <a
-href="local-doc.html">local doc</a>, and to a <a
-href="#an-h2-header">section heading in the current doc</a>. Here's a
-footnote <a href="#fn1" class="footnote-ref" id="fnref1"
-role="doc-noteref"><sup>1</sup></a>.</p>
-<p>Tables can look like this:</p>
-<table>
-<caption>Shoes, their sizes, and what they're made of</caption>
-<thead>
-<tr class="header">
-<th>size</th>
-<th style="text-align: left;">material</th>
-<th style="text-align: left;">color</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>9</td>
-<td style="text-align: left;">leather</td>
-<td style="text-align: left;">brown</td>
-</tr>
-<tr class="even">
-<td>10</td>
-<td style="text-align: left;">hemp canvas</td>
-<td style="text-align: left;">natural</td>
-</tr>
-<tr class="odd">
-<td>11</td>
-<td style="text-align: left;">glass</td>
-<td style="text-align: left;">transparent</td>
-</tr>
-</tbody>
-</table>
-<p>(The above is the caption for the table.) Pandoc also supports
-multi-line tables:</p>
-<table style="width:47%;">
-<colgroup>
-<col style="width: 13%" />
-<col style="width: 33%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th style="text-align: left;">keyword</th>
-<th style="text-align: left;">text</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td style="text-align: left;">red</td>
-<td style="text-align: left;">Sunsets, apples, and other red or reddish
-things.</td>
-</tr>
-<tr class="even">
-<td style="text-align: left;">green</td>
-<td style="text-align: left;">Leaves, grass, frogs and other things it's
-not easy being.</td>
-</tr>
-</tbody>
-</table>
-<p>A horizontal rule follows.</p>
-<hr />
-<p>Here's a definition list:</p>
-<dl>
-<dt>apples</dt>
-<dd>
-Good for making applesauce. oranges
-</dd>
-<dd>
-Citrus! tomatoes
-</dd>
-<dd>
-There's no "e" in tomatoe.
-</dd>
-</dl>
-<p>Again, text is indented 4 spaces. (Put a blank line between each
-term/definition pair to spread things out more.)</p>
-<p>Here's a "line block":</p>
-<div class="line-block">Line one<br />
-  Line too<br />
-Line tree</div>
-<p>and images can be specified like so:</p>
-<figure>
-<img src="example-image.jpg" title="An exemplary image"
-alt="example image" />
-<figcaption aria-hidden="true">example image</figcaption>
-</figure>
-<p>Inline math equations go in like so: <span
-class="math inline"><em>ω</em> = <em>d</em><em>ϕ</em>/<em>d</em><em>t</em></span>.
-Display math should get its own line and be put in in
-double-dollarsigns:</p>
-<p><span
-class="math display"><em>I</em> = ∫<em>ρ</em><em>R</em><sup>2</sup><em>d</em><em>V</em></span></p>
-<p>And note that you can backslash-escape any punctuation characters
-which you wish to be displayed literally, ex.: `foo`, *bar*, etc.</p>
-<aside id="footnotes" class="footnotes footnotes-end-of-document"
-role="doc-endnotes">
-<hr />
-<ol>
-<li id="fn1"><p>Footnote text goes here.<a href="#fnref1"
-class="footnote-back" role="doc-backlink">↩︎</a></p></li>
-</ol>
-</aside></content>
-        <category term='	place holder'/>
+<p><em>Clad with the blood of either friend or foe, the original shine
+of the blade could barely be recognized. Gone are the days of prosperity
+and kinship, for the era upon him was grim and full of carnage and evil.
+The man once sought truth followed the trail of deceit, and he now finds
+himself at a loss of who to call his ally. There was no land that held
+its rightful ruler, yet all of mankind seemed to agree to a mutual
+bloodshed and malice. Wrath was the only common denominator on this
+continent, yet he spoke boldly to catch the attention of the beast
+before him. "The lands, they must be cleansed. These people, they must
+be saved." Such drivel should be ignored by the strong, for the words of
+the weak were meant to be trampled. Yet the man challenged the Heralds
+of Death with his words alone: "The strong does not yet exist as it once
+had. Order will find itself as the mighty returns." These Heralds, who
+have abused kinship to conjure fear, found trepidation in the man that
+spoke these words. They exhausted all of their forces to claim his head
+but to no avail. "Thy speak of the strong not existing, the strong be
+returning, you dare not refer to thyself?" spoke the head of Regulus, to
+which the man replied, "To compare the strong to the likes of you and I,
+we are helpless at its mercy. The worth of your head, and the worth of
+mine, we are but dust in his eyes. Your provocations would not even
+appear in the cognizance of the strong." Despite his admonishments, the
+man was hunted to the point of self-exile, for there was no land that
+did not desire his blood splattered across the floors. This man yearned
+not for the strong, yet could not help but express his bitterness, for
+the weak have gathered together to expedite another's decay. Yet in his
+eyes, he too was of the weak, and it was his duty to see to it that the
+strong would one day return. "Demiurgos meets Invictus, Life meets
+Death," thus spoke the man.</em></p>
+<p>Sitting in his lonesome, he recalled his favorite excerpt from an old
+tale, <em>The Man at Peak's End.</em> At both an unknown time and
+setting, this tale depicts a prodigy that was denounced by his country
+and his people for his bold prophecies. To prevent his loved ones from
+being slain, the man fled and vanished into obscurity; what remains now
+is a mysterious story with no definitive end. Although this tale is
+greatly shadowed by the likes of <em>The Four Heroes</em> and <em>The
+Peerless Warlord</em>, he found this specific tale much more intriguing
+and charming. <em>Perhaps it was the lack of details and
+popularity,</em> he thought to himself, <em>that the work had a sense of
+credibility that would have been left untouched since its writing. No
+exaggeration, and nothing inserted for the purpose of entertainment; a
+raw piece of history depicting a time in which this flourishing world
+housed the most incredulous of prosecutors. The less infamy a work has,
+the more merit it boasts</em>, he concludes. After all, the work has no
+other versions, meaning its words have never been tampered from its
+original creation. While it remains a mystery with many questions left
+unanswered, he felt a connection with this story. It shined a bright
+light on many importances of his life.</p>
+<p>"Ah, that's right." He spoke out, before looking around the training
+room in search of people. He sensed a presence entering, but it wasn't
+one to be wary of. A memory resurfaced in his mind, and he dropped the
+eighty kilogram weight that he was lifting with his left arm. Standing
+up, he reached into his pocket to pull out a small notebook as he walked
+over to one of the training dummies. Then, he proceeded to open the
+notebook and begin writing as he spoke out:</p>
+<p>"This world follows seven core principles, and you will learn more
+about them and their origins when you grow older. They are named after
+the individuals who were the subject of worship. These are very
+important to understand, so listen to me carefully as I tell you these
+codes.</p>
+<p>The Code of Avita: One in power cannot be forcefully dethroned, it is
+the decision for the masses to decide who to follow.</p>
+<p>The Code of Yggdrasil: One is not allowed to deprive another of their
+merriment.</p>
+<p>The Code of Krotek: One may be enslaved only without
+mistreatment.</p>
+<p>The Code of Imperion: One can prevent a war or stop it, for war does
+not have to see its end.</p>
+<p>The Code of Fleur: One's chastity, marriage, and love is destined by
+oneself. False love, arranged marriages, and the deprivation of one's
+virginity is taboo.</p>
+<p>The Code of Sohee: One can be indicted, but cannot be punished
+without integrity.</p>
+<p>The Code of Ignis: One will not find salvation in taking one's own
+life.</p>
+<p>If these kinds of things interest you, I can provide you with <em>The
+Seven Vows,</em> which contains everything there is about these codes
+and the individuals. There's also history, but... before learning about
+history, it's important to know about the now. This is the Luminous
+continent, home to the Three Kingdoms: Ingram, the nation of scholars
+and wisdom. Located further north at the east coast of the continent,
+the ruler of the nation is also the headmaster of their famous academy.
+Many important discoveries have been made there, and I have nothing but
+respect for them. At the center of the nation is the Armament, one of
+the most secure research facilities. Bordering Ingram to the south west
+is Scyte, a nation of battle known as the "land of the mercenaries."
+Ruled by one man and his generals, Scyte is mostly known for its
+military might and their fearsome God Generals. These individuals have
+the potential to be the strongest in the land. Lastly, bordering Scyte
+as well as the east coast of this continent is Azura, the nation of
+prosperity and honor. This is where we are, a beautiful empire ruled
+over by two noble houses. Everybody in our nation is at peace, and we
+have not seen conflict in centuries. Within the continent, as well as
+other continents, is a hub for the Imperial Order; you may come to know
+this faction as simply the "Guild." Here, in Azura, is where this
+embassy resides.</p>
+<p>About the Imperial continent, it is one of the most historic and rich
+continents. This continent houses the Regal Kingdoms, which controls the
+Guild and was once ruled by one of the Seven: Imperion. The continent is
+also where Allanon, the great Elven woods, reside. Just east of it is
+Adneil, the imperial Elven nation. Another one of the Seven, Fleur, was
+a revered figure in this country."</p>
+<p>"Walter, are you speaking to yourself?" Before he could continue,
+Walter was interrupted by a man who had been at the entrance for some
+time. "Am I interrupting?"</p>
+<p>"As always, you have no presence. I could only sense your entering,
+but afterwards it was nearly impossible to follow, Master Darus."</p>
+<p>"That was an awfully long speech, I'd love to ask its purpose but I'm
+afraid I don't have the leisure to do so."</p>
+<p>"Oh?"</p>
+<p>"Cassius has ordered me to inform you, all of the Aesir from across
+the continent have been called to gather at the Cathedral Hall. Although
+you are still young and in training, he specified that you must attend
+as well."</p>
+<p>He walked away from the dummy and reached over to a table, placing
+his notebook down. "This sounds rather important. Is there any other
+detail?"</p>
+<p>Darus shook his head, looking downwards. Walter always picks up on
+small gestures such as these.</p>
+<p>"I can only inform you of the orders. However, I can inform you on
+what to expect. After all, the Aesir that will be there are not all from
+Azura..."</p>
+<p>Darus continued to debrief, but unbeknownst to him he had begun
+explaining to a sturdy wall. Although Walter had utmost respect for him,
+hearing his voice reminds him of the authorities in the continent. Born
+to nobility, yet never participating in it, Walter was born to be a
+warrior and has been separated from the families at a young age,
+training in solemn alone-ness.</p>
+<p><em>I was taken in by Lord Luminous, who gave me 'The Man at Peaks
+End.' Master Darus has also given me such grand swordsmanship. I recall
+the words as clear as ever from the tale... 'You four, you shall carry
+my burden; no, my hopeless dreams. You endure hardship, pain, struggle
+and suffering not because you are weak. No, this experience accumulates
+because it is destined for the strong to never yield to such barbarism.
+Let it stack over and over, for I truly believe such mundane tasks do
+not even render in your eyes. You four, your greatness and strength is
+guaranteed. I shall see to it, even when my bearings have transcended
+this world, that you will become that which I... which they have... no,
+that which you have envisioned yourself. The weak must not decide for
+the strong, and the strong must find a role to assume to present to the
+weak. These ramblings of mine, I pray you four shall cherish it dearly
+for eons to come; for when the strong remember me so, I shall be the
+reminder to them of you who serve as the origin.'</em></p>
+<p>"Walter..."</p>
+<p>A young man, standing tall with his hands over an open notebook. He
+looked downwards in self-absorbed focus. <em>This was the sight of a man
+deep in thought and mourning</em>, Darus thought to himself.</p>
+<p>"Very well then." The notebook closes, as Walter approaches Darus. "I
+will go."</p>
+<p>"How long has it been since you last left this place?"</p>
+<p>"Seven months, eight days, fifteen hours."</p>
+<p><em>Precise, exact. This man was separated from his family at a young
+age to cultivate what he is now, how monstrous.</em></p>
+<p>As Walter walked past Darus, a sense of absolute conviction could be
+felt. Darus was used to these kinds of auras, but seldom did he feel it
+from somebody so young. Walter had just recently turned eighteen, but he
+already has the abilities of a long-time warrior.</p>
+<p>"Did you notice? My sword's sheath is on the door that you walked
+through. But the sword itself, I always leave it elsewhere."</p>
+<p>"You've learned since that incident, I can see that."</p>
+<p>"I will never be swayed like that again." He brought the sheathe down
+and equipped it to his waist. He then walked to the dummies, where he
+removed its head and removed a stainless broadsword from the body of
+it.</p>
+<p>"It still perplexes me, Walter." Darus took a seat by the dummy near
+Walter. "This sword that I gave you, it was unbelievably light when I
+last picked it up. Such a thin blade, it's terrifying how much impact
+you are able to give it with each swing."</p>
+<p>"You noticed this is the same blade?"</p>
+<p>"Though it's untouched, I can see that you polish it with care. I can
+always get you a new, higher quality one."</p>
+<p>"There's no need for that."</p>
+<p>"I don't mean to underestimate your abilities as an Anima, but having
+a better weapon never hurts."</p>
+<p>Walter sheathed his sword and tidied up his boots.</p>
+<p>"At some point, you'll come to a revelation that not any sword can
+work for you. Imperion himself had his own specific equipment, soon you
+will be the same. It's a warrior's specialty."</p>
+<p><em>Although his interpretation of warrior spirit and understanding
+of warrior culture is completely accurate... I am sure he would find it
+difficult to believe the properties of the sword,</em> Walter thought to
+himself. In this world, there is a universal force that exists within
+every being: Psyche. A person's psyche is determined at birth, and
+psyche is measured in terms of affinity. Each race has different
+affinities, but there are only four of them. For humans like Walter,
+they wield the affinities of four elements: Fire, Water, Earth, or Wind.
+The title of Anima is given to those that have the highest affinity for
+the respective element, a traditional practice of the Luminous
+continent. <em>I am the Anima of Earth, and my sword is... a completely
+normal broadsword that can be purchased anywhere at any local smithery.
+I know that much. The abilities that Anima are capable of, the ones that
+I had to spend so much time learning, were much different in several
+magnitudes from the common person. My ability to turn weak material into
+powerful ones, that is what I specialize in. So... I am sorry, but I
+won't need a signature weapon.</em></p>
+<p>"Let's go, the carriage is waiting for us."</p>
+<p>"Understood."</p>
+<p>"And before we get on, I'd like to remind you. Fear kills warriors
+that cannot mend it to their will."</p>
+<p>Darus continued walking forward, but he could sense the burning aura
+behind him. Walter's gaze was fixed, and his resolve was hardened. He
+suddenly became more aware of the events that awaited him, as his eyes
+flared in fervor. <em>He spoke these words with an ominously casual
+tone. I had rationalized that there must be a reason for this. Perhaps
+his own consciousness, or maybe he is being watched? This serious bit of
+information, contrasted with his tone of voice. His words were vague as
+well.</em></p>
+<p>Cathedral Hall was a place in which only a single aspect of it
+warranted an accurate name. Although there is a cathedral-like entrance
+and a tower at the center, the area itself had no halls nor did it
+resemble a cathedral. It was a wide circular building, encased within a
+dome of protection. The area around this hall was known as "Babylon's
+Hell," because it prevents normal people from being able to reach the
+center due to its harsh conditions. The entire area itself serves as
+both training grounds and a containment zone. A large leyline vein
+passes through this area, and to the west of it is what's known as a
+leyline deposit. Leyline veins are currents that run through this world
+that carry energy, which can be converted into psyche. To prevent
+leyline deposits from being too rich in psyche, the Vanir family makes
+breaches into large leyline veins across the country. Specters, beings
+created from the energy that passes, spawn from these veins. These
+entities are harmful and considered monsters. They take a multitude of
+forms and slay indiscriminately. As warriors of Azura, we must learn the
+many different archetypes of specters as well as the range at which
+their strength may vary. But of course, traversing Babylon's Hell and
+reaching Cathedral Hall should not pose any life-threatening difficulty
+to an Aesir.</p>
+<p>The Aesir have absolute loyalty to the Vanir despite being a more
+powerful family. The Aesir have much larger numbers, and the most
+skilled fighters of the continent, while the Vanir represent one of the
+two houses that rule Azura. Walter was exceptionally loyal to the
+Vanir.</p>
+<p>"While we are here, do you mind if I ask what your talk was
+about?"</p>
+<p>"Are you referring to back at the training hall?"</p>
+<p>"I am. It was a little unnerving to hear you speak in such a soft
+tone, it felt unusual but comical at the same time."</p>
+<p>"Lord Charles Vanir will be having a new child soon, and I have been
+appointed to this child by Lord Luminous himself. I was practicing my
+teaching methods."</p>
+<p>"I see. When do you expect to have that talk with the child?"</p>
+<p>"After they are born."</p>
+<p>Darus burst out in laughter, and even the carriage driver couldn't
+help but chuckle. "You know, kid, you never fail to amuse me."</p>
+<p>"I was serious, it would be best for them to learn this as soon as
+possible."</p>
+<p>"You're not much of a teacher, are you?"</p>
+<p>"I'm merely imitating you."</p>
+<p>"That's a different case, Walter. You were a genius, it was easy to
+teach you everything at once. But not everyone's as gifted as you,
+you'll have to wait and see what that child is capable of. I know I'm
+not much of a teacher, but I know that much at least."</p>
+<p>"Your teachings have influenced me greatly, mind you. I believe
+you've done splendidly. In your honor, I will make sure the child grows
+up well."</p>
+<p>Darus scratched his head and looked beyond the horizon. "Not
+listening to me, are you? You took away all the difficulty of teaching,
+you should observe someone else. Pick up a pupil or two later on,
+perhaps the struggle will shape you into a good instructor."</p>
+<p>"A pupil... would that be appropriate for me?"</p>
+<p>"Let go of the past, Walter. You're not some trainee anymore. I've
+seen what you can do, you're already a full fledged warrior. But you're
+still not ready, Walter du Aesir. You still need the experience."</p>
+<p><em>Experience? This came about suddenly. Perhaps this event at
+Cathedral Hall... this is an experience necessary for me. Lord Cassius
+wants me there, but all of the Aesir have gathered. The meaning of
+this...</em></p>
+<p>"I know that very well. Thank you, Master Darus."</p>
+<p>"That being said, don't overload the child with all that damn
+information! Make it thorough, what's the kid gonna do after learning
+such an important code from a single sentence, huh?!"</p>
+<p>"That's... a very good point." He took his notebook out and began
+writing. Once more, he was fully engrossed and had become that sturdy
+wall. "How might I make this optimal for their survivability?" He
+mumbled to himself.</p>
+<p>Darus laughed again, "Survivability, eh? I guess you can't argue with
+that!"</p>
+<p>"Master?"</p>
+<p>He brought his hand closer to Walter's head, then extended his index
+finger. "Whatever's in here, it's enough to make a rough man like me
+chuckle. That's how I'm sure you'll be a good mentor."</p>
+<p><em>He continued onward, seeming content with my responses. I will
+admit, after thinking about what I said I am rather embarrassed. It's
+rather silly after considering that I am talking about a child... but he
+doesn't seem to realize that this is the child of Lord Charles, the most
+powerful man in Azura. There's no doubt their potential will supersede
+us both.</em></p></content>
+        <category term='	chapter'/>
     </entry>
 
   </feed>
