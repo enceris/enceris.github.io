@@ -177,18 +177,6 @@ ul li ul li ul li::before {
   color: var(--highlight-dark);
 }
 
-/* hr */
-
-hr {
-  border: 0;
-  text-align: left;
-}
-
-hr:before {
-  content: "---";
-  color: var(--highlight-dark);
-}
-
 /* links */
 
 a {
