@@ -86,10 +86,10 @@ t_date() {
 
 t_card() {
   echo -n "<section>
-        <span class='chapter'>chapter $(f_meta "$1" chapter)</span>
+        <span class='chapter'>chapter $(f_meta "$1" chapter):</span>
         <a href='/p/$1' class='bold'>$(f_meta "$1" name)</a>
-        <div>$(f_meta "$1" peek)</div>
-        <span>$(t_tags "$1")</span>
+        <!--<div>$(f_meta "$1" peek)</div>
+        <span>$(t_tags "$1")</span>-->
       </section>"
 }
 

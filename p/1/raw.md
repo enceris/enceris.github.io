@@ -6,8 +6,6 @@ chapter: 1
 date: 1687187149
 -->
 
-Chapter 1: The Grand Gathering
-
 THE REFORMER
 
 ***
@@ -258,6 +256,8 @@ consciousness, or maybe he is being watched? This serious bit of
 information, contrasted with his tone of voice. His words were vague as
 well.*
 
+***
+
 Cathedral Hall was a place in which only a single aspect of it warranted
 an accurate name. Although there is a cathedral-like entrance and a
 tower at the center, the area itself had no halls nor did it resemble a
@@ -358,3 +358,5 @@ silly after considering that I am talking about a child... but he
 doesn't seem to realize that this is the child of Lord Charles, the most
 powerful man in Azura. There's no doubt their potential will supersede
 us both.*
+
+***
