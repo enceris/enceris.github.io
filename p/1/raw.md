@@ -1,14 +1,10 @@
 <!--
 name: The Grand Gathering
-peek: The Reformer
+peek: THE REFORMER
 tags: chapter
 chapter: 1
 date: 1687187149
 -->
-
-THE REFORMER
-
-***
 
 *Clad with the blood of either friend or foe, the original shine of the
 blade could barely be recognized. Gone are the days of prosperity and

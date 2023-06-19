@@ -95,10 +95,12 @@ t_card() {
 
 t_post() {
   local name ; name="$(f_meta "$1" name)"
-  t_body "$name" "<main>
+  t_body "Chapter$(f_meta "$1" chapter):$name" "<main>
     <article>
       <h1>$name</h1>
-      <span class='chapter'>Chapter$(f_meta "$1" chapter)</span>
+      <h4>KAKUTAI</h4>
+      <h4>$(f_meta "$1" peek)</h4>
+      <hr>
       $(render "$(<"p/$1/raw.md")")
       <span class='meta'>$(t_date "$1") $(t_tags "$1")</span>
     </article>

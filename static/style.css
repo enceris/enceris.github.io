@@ -55,10 +55,15 @@ span.chapter, time {
   color: var(--foreground-mild);
 }
 
+span.chapter {
+  text-align: center;
+}
+
 h1, h2, h3, h4, h5 {
   font-weight: 400;
   font-family: Bold, sans-serif;
   margin: 2rem 0 1rem 0;
+  text-align: center;
 }
 
 h1 {
