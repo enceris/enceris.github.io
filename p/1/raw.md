@@ -519,7 +519,7 @@ Directly east has a gorge that separates this area and the border of
 Lyra, one of the graceful cities of Azura. The river coming from the
 lake pours out as a waterfall into this gorge. From the looks of it,
 many sought out others to form teams, while others began laying
-traps---Morgaine's words have pushed many of us to think of murder, it
+traps---Alice's words have pushed many of us to think of murder, it
 seems.*
 
 *For an Aesir, we don standard gear for soldiers. The difference between
@@ -527,7 +527,7 @@ us and a regular soldier is our tacit uniqueness in battle; we all have
 our own different methods of fighting. A few of us are armed with
 various secondary weapons, some of us carry shields, some prefer cloaks
 over gear. With my abilities, taking ten heads would be more than easy
-for me... but something about Morgaine's words irks me. Perhaps it's an
+for me... but something about Alice's words irks me. Perhaps it's an
 option, but not the right one. I'm sure many of us believe this is the
 easiest route, but seeing as Cassius did not give much care to any
 individual's life... it's just another test?*

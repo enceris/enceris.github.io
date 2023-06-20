@@ -95,6 +95,10 @@ strong:after {
   content:"」";
 }
 
+article p {
+  text-align: justify;
+}
+
 p:after {
   color: var(--highlight-dark);
   content:"¬";
