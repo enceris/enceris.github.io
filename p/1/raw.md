@@ -151,30 +151,29 @@ to nobility, yet never participating in it, Walter was born to be a
 warrior and has been separated from the families at a young age,
 training in solemn alone-ness.
 
-*I was taken in by Lord Luminous, who gave me 'The Man at Peaks End.'
-Master Darus has also given me such grand swordsmanship. I recall the
-words as clear as ever from the tale... 'You four, you shall carry my
-burden; no, my hopeless dreams. You endure hardship, pain, struggle and
-suffering not because you are weak. No, this experience accumulates
-because it is destined for the strong to never yield to such barbarism.
-Let it stack over and over, for I truly believe such mundane tasks do
-not even render in your eyes. You four, your greatness and strength is
-guaranteed. I shall see to it, even when my bearings have transcended
-this world, that you will become that which I... which they have... no,
-that which you have envisioned yourself. The weak must not decide for
-the strong, and the strong must find a role to assume to present to the
-weak. These ramblings of mine, I pray you four shall cherish it dearly
-for eons to come; for when the strong remember me so, I shall be the
-reminder to them of you who serve as the origin.'*
+*I was taken in by Lord Luminous, who gave me 'The Man at Peaks End.' I
+recall the words as clear as ever from the tale... 'You four, you shall
+carry my burden; no, my hopeless dreams. You endure hardship, pain,
+struggle and suffering not because you are weak. No, this experience
+accumulates because it is destined for the strong to never yield to such
+barbarism. Let it stack over and over, for I truly believe such mundane
+tasks do not even render in your eyes. You four, your greatness and
+strength is guaranteed. I shall see to it, even when my bearings have
+transcended this world, that you will become that which I... which they
+have... no, that which YOU have envisioned yourself. The weak must not
+decide for the strong, and the strong must find a role to assume to
+present to the weak. These ramblings of mine, I pray you four shall
+cherish it dearly for eons to come; for when the strong remember me so,
+I shall be the reminder to them of you who serve as the origin.'*
 
 "Walter..."
 
 A young man, standing tall with his hands over an open notebook. He
 looked downwards in self-absorbed focus. *This was the sight of a man
-deep in thinking and mourning*, Darus to himself.
+deep in thinking and mourning*, Darus thought to himself.
 
-"Very well then." The notebook closes, as Walter approaches Darus. "I
-will go."
+"Very well then." Walter utters, closing the notebook as he approaches
+Darus. "I will go."
 
 "How long has it been since you last left this place?"
 
@@ -183,20 +182,22 @@ will go."
 *Precise, exact. This man was separated from his family at a young age
 to cultivate what he is now, how monstrous.*
 
-As Walter walked past Darus, a sense of absolute conviction could be
-felt. Darus was used to these kinds of auras, but seldom did he feel it
-from somebody so young. Walter had just recently turned eighteen, but he
-already has the abilities of a long-time warrior.
+As Walter walked past Darus, a sense of absolute conviction emitted from
+the young boy. Darus was used to these kinds of auras, but seldom did he
+feel it from somebody still in their youth. Walter had just recently
+turned eighteen, but he already has the abilities of a long-time
+warrior.
 
-"Did you notice? My sword's sheath is on the door that you walked
-through. But the sword itself, I always leave it elsewhere."
+Closing the door, Walter pointed at the only decoration hung up. "Did
+you notice? My sword's sheath is on the door that you walked through.
+But the sword itself, I always leave it elsewhere."
 
 "You've learned since that incident, I can see that."
 
 Silence followed. He brought the sheathe down and equipped it to his
 waist. "I won't be treated that way a second time." He then walked to
-the dummies, where he removed its head and lifted a stainless broadsword
-from within the body.
+the training dummies, where he removed its head and lifted a stainless
+broadsword from within the body.
 
 "It still perplexes me, Walter." Darus took a seat by the dummy near
 him. "This sword that I gave you, it was unbelievably light when I last
@@ -229,30 +230,34 @@ psyche is measured in terms of affinity. Each race has different
 affinities, but there are only four of them. For humans like Walter,
 they wield the affinities of four elements: Fire, Water, Earth, or Wind.
 The title of Anima is given to those that have the highest affinity for
-the respective element, a traditional practice of the Luminous
+their respective element, a traditional practice of the Luminous
 continent. *I am the Anima of Earth, and my sword is... a completely
 normal broadsword that can be purchased anywhere at any local smithery.
 I know that much. The abilities that Anima are capable of, the ones that
-I had to spend so much time learning, were much different in several
-magnitudes from the common person. My ability to turn weak material into
-powerful ones, that is what I specialize in. So... I am sorry, but I
-won't be in need of a signature weapon. Not any time soon.*
+I had spent so much time learning, makes us several magnitudes stronger
+than the common folk. My ability to turn weak material into powerful
+ones, that is what I specialize in. So... I am sorry, but I won't be in
+need of a signature weapon. Not any time soon.*
 
 "Let's go, the carriage is waiting for us."
 
-"Understood."
+"Understood."'
+
+Walter's gaze was fixed, and his resolve was hardened. He suddenly
+became more aware of the events that awaited him, as his eyes flared in
+fervor.
 
 "And before we get on, I'd like to remind you of something."
 
 Darus paused for a brief moment, then continued walking forward. He
-could sense the burning aura behind him. Walter's gaze was fixed, and
-his resolve was hardened. He suddenly became more aware of the events
-that awaited him, as his eyes flared in fervor. But in that brief
-moment, this passion diminished almost entirely. *He spoke these words
-with an ominously casual tone. I had rationalized that there must be a
-reason for this. Perhaps his own consciousness, or maybe he is being
-watched? This serious bit of information, contrasted with his tone of
-voice. His words were vague as well.*
+could sense the burning aura behind him, but that aura almost diminished
+entirely after he halted.
+
+Walter analyzed the man in front of him. *His back stiffened, and his
+shoulders rose just slightly. His chest is out more, and his walking
+became more rhythmic. He spoke these words with an ominously casual
+tone. I had rationalized that there must be a reason for this. Perhaps
+his own consciousness, or maybe he is being watched?*
 
 "Fear kills warriors that don't mend it to their will. Walter du
 Aesir..."
@@ -295,10 +300,13 @@ The Aesir have absolute loyalty to the Vanir despite being a more
 powerful family. The Aesir have much larger numbers, as well as the most
 skilled fighters of the continent, while the Vanir represent one of the
 two houses that rule Azura, the House of Tilith. The other house,
-represented by Aidan Baine, is the House of Lyra. Walter was
-exceptionally loyal to the Vanir.
+represented by Aidan Baine, is the House of Lyra. Walter, being
+exceptionally loyal to the Vanir, cared very little for the House of
+Lyra.
 
-"While we are here, do you mind if I ask what your talk was about?"
+Darus leaned forward in the carriage to grab Walter's attention, who was
+spacing out. "While we are here, do you mind if I ask what your talk was
+about?"
 
 "Are you referring to back at the training hall?"
 
@@ -460,11 +468,12 @@ death sentence? A chance to reveal my capabilities, to show everyone
 what I am capable of? Is this... really the right time to feel such
 profuse thrill?*
 
-One of the figures removed their robe. "There will be a grace period of
-three hours. All spectral beasts have been neutralized, but will be free
-to move once this period ends. No killing or fighting shall take place
-in these three hours. Use this time to your advantage, please remain
-here if you wish to challenge Cassius."
+One of the figures removed their robe. It was Morgaine Ballard, a noble
+of the Vanir family. "There will be a grace period of three hours. All
+spectral beasts have been neutralized, but will be free to move once
+this period ends. No killing or fighting shall take place in these three
+hours. Use this time to your advantage, please remain here if you wish
+to challenge Cassius." Her voice was cold and unforgiving.
 
 A familiar figure made her way from behind Cassius. After removing her
 hood, the crowd began to kneel.
@@ -485,9 +494,10 @@ to frighten beasts.
 "Queen Alice li Vanir will make the closing remarks." Another hood went
 down, it was Hyland Baine, a high ranking member of the House of Lyra.
 
-"I have high hopes for all of you. Although normally the head of that
-many specters is enough, I believe that the head of an Aesir alone would
-be worth a hundred specters... you get me? This trial is not only a
+The queen stepped forward, looking from the left to the right. "I have
+high hopes for all of you. Although normally the head of that many
+specters is enough, I believe that the head of an Aesir alone would be
+worth a hundred specters... you get me? This trial is not only a
 measurement of passage, but keep in mind the importance of glory and
 honor."
 
@@ -502,8 +512,6 @@ determine who is an ally, only being able to confirm foes through
 battle. This thrill... it's as if these circumstances were ordained by
 fate.*
 
-***
-
 *TIME TO BATTLE: 2:57:04*
 
 *People left in groups, or on their own. It seemed that nobody wanted to
@@ -514,7 +522,7 @@ I'd imagine he would cut everyone down in one hit, claiming that those
 unable to survive one attack aren't worthy to live. Luckily for us,
 Babylon's Hell was a large forested area, with different unique zones.
 The forest becomes notably denser further west, and there is a large
-lake south east. Up in the north is a plain area with a lot less trees.
+lake south east. Up in the north is a plains area with a lot less trees.
 Directly east has a gorge that separates this area and the border of
 Lyra, one of the graceful cities of Azura. The river coming from the
 lake pours out as a waterfall into this gorge. From the looks of it,
@@ -564,7 +572,7 @@ Cadre Class, adversaries that require multiple people to subdue. For
 more powerful felons, and a few monsters, this is the threat level you
 would expect.
 
-Battalion Class, which require a uniform and orderly group to subdue,
+Battalion Class, which requires a uniform and orderly group to subdue,
 with a large emphasis on orderly. Synergy is almost a requirement to
 subdue such threats.
 
