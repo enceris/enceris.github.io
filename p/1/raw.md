@@ -429,8 +429,8 @@ that flooded their being. What exactly is going on?*
 pinpoint its location. Then, in an instant---*BANG!* The men that were
 standing fell to their ground, their headless bodies clashing with those
 who kneeled. Those that remained did not dare leave their current
-positions. *The heads of the deceased were all pierced with a spear
-connected to a rope, with a force great enough to completely remove it
+positions. *The heads of the deceased were all pierced with spears
+connected to ropes, with a force great enough to completely remove it
 from the body. Just what would happen had they have missed?* "Search
 their bodies for identification. Find me their drill instructor. We
 shall have them executed. Let this be an ultimatum to all of you, when
