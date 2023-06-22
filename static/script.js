@@ -78,7 +78,7 @@ function applyStyle() {
   styleBlock.textContent = `
   :root {
   --background: #090909;
-  --foreground: #eeeeee;
+  --foreground: #DDCCBB;
   --foreground-mild: #999999;
   --hyperlink: #ffffff;
   --hyperlink-visited: #ffffff;
