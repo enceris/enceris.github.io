@@ -179,7 +179,7 @@ to my will.*
 
 "Answer my question first, Adel."
 
-"Ah, noble etiquette, right?" He leaned his back against the wall,
+"Ah, noble etiquette, right?" he leaned his back against the wall,
 crossing his arms together. "Honor and glory should mean the same, but
 they've both been mentioned. For me, honor's always been staying true to
 one's convictions. We've all taken a vow to protect, which is why I was
@@ -551,7 +551,7 @@ details.
 ***
 
 "Not only a true descendent, but he even has powers of earth like the
-legendary Cain?!" Said Garrison, who was sitting by the wall of the
+legendary Cain?!" said Garrison, who was sitting by the wall of the
 makeshift cave.
 
 "It's nothing special." Walter says, as everyone blankly stares at him.
@@ -613,7 +613,7 @@ opening and closed it behind him.
 
 A brief silence.
 
-"It's rather dark here, don't you think, Adel?" Spoke Garrison.
+"It's rather dark here, don't you think, Adel?" spoke Garrison.
 
 "Hold on." Adel struck his match on the ground, lighting a fire for a
 small amount of light. On the floor were extra matches, and there was
@@ -706,7 +706,7 @@ with the edge perpendicular to the ground makes for a stronger impact.*
 "Hey, you!" A figure in the distance was catching up. "Where are you
 headed?"
 
-"\...Babel?"
+"...Babel?"
 
 "Reporting in, Walter. What's our situation?"
 

@@ -54,7 +54,7 @@ tampered from its original creation. While it remains a mystery with
 many questions left unanswered, he felt a connection with this story. It
 shined a bright light on many importances of his life.
 
-"Ah, that's right." He spoke out, before looking around the training
+"Ah, that's right," he spoke out, before looking around the training
 room in search of people. He sensed a presence entering, but it wasn't
 one to be wary of. A memory resurfaced in his mind, and he dropped the
 eighty kilogram weight that he was lifting with his left arm. Standing
@@ -172,7 +172,7 @@ A young man, standing tall with his hands over an open notebook. He
 looked downwards in self-absorbed focus. *This was the sight of a man
 deep in thinking and mourning*, Darus thought to himself.
 
-"Very well then." Walter utters, closing the notebook as he approaches
+"Very well then," Walter utters, closing the notebook as he approaches
 Darus. "I will go."
 
 "How long has it been since you last left this place?"
@@ -199,7 +199,7 @@ waist. "I won't be treated that way a second time." He then walked to
 the training dummies, where he removed its head and lifted a stainless
 broadsword from within the body.
 
-"It still perplexes me, Walter." Darus took a seat by the dummy near
+"It still perplexes me, Walter," Darus took a seat by the dummy near
 him. "This sword that I gave you, it was unbelievably light when I last
 picked it up. Such a thin blade, it's terrifying how much impact you are
 able to give it with each swing."
@@ -241,7 +241,7 @@ need of a signature weapon. Not any time soon.*
 
 "Let's go, the carriage is waiting for us."
 
-"Understood."'
+"Understood."
 
 Walter's gaze was fixed, and his resolve was hardened. He suddenly
 became more aware of the events that awaited him, as his eyes flared in
@@ -363,7 +363,7 @@ such an important code from a single sentence, huh?!"
 
 "That's... a very good point." He took his notebook out and began
 writing. Once more, he was fully engrossed and had become that sturdy
-wall. "How might I make this optimal for their survivability?" He
+wall. "How might I make this optimal for their survivability?" he
 mumbled to himself.
 
 Darus laughed again, "Survivability, eh? I guess you can't argue with
@@ -491,7 +491,7 @@ The man himself stepped forward. A few of the warriors fell back from
 their kneeling. Just one footstep, a shockwave of his power was enough
 to frighten beasts.
 
-"Queen Alice li Vanir will make the closing remarks." Another hood went
+"Queen Alice li Vanir will make the closing remarks," another hood went
 down, it was Hyland Baine, a high ranking member of the House of Lyra.
 
 The queen stepped forward, looking from the left to the right. "I have
