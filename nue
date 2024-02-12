@@ -54,15 +54,17 @@ t_body() {
     <nav class='feed'>
       <div>
         <a href='/' class='bold'>home</a>
-        <a href='/p'>index</a>
-        <a href='/about' class='bold'>about</a>
+        <a href='/p'>chapters</a>
+        <a href='/'>map</a>
+        <a href='https://enceris.fandom.com/'>wiki</a>
+        <a href='/archive' class='bold'>archive</a>
       </div>
       <div>
         <a href='/atom.xml'>rss</a>
         <a href='#' class='toggle'>dark mode</a>
       </div>
     </nav>
-    <span style='white-space: nowrap;'>placeholder tagline idk</span>
+    <span style='white-space: nowrap;'>PLACEHOLDER</span>
     ${2}
     <script type='module' src='/static/script.js'></script>
   </body>
@@ -150,8 +152,8 @@ build() {
         done < <(find p -name '*.md' -printf '%p\n' | sort -r))
     </main>")" > p/index.html
 
-  echo "t_body about - Kakutai"
-  echo "$(t_body "about" "$(render "$(<about/raw.md)")")" > "about/index.html"
+  echo "t_body archive - Kakutai"
+  echo "$(t_body "archive" "$(render "$(<archive/raw.md)")")" > "archive/index.html"
 
   for p in "p/"*; do
     p=${p##*/}

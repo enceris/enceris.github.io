@@ -1,3 +1,3 @@
-# site
+# home
 
-PLACEHOLDER
+synopsis placeholder
