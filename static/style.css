@@ -193,39 +193,12 @@ main a:visited {
   color: var(--hyperlink-visited);
 }
 
-/* search box */
-
-#s {
-  background: none;
-  border: none;
-  outline: none;
-  padding: 0;
-  width: 3.5em;
-  font: 1.06rem/1 Bold, sans-serif;
-}
-
-#s:not(:placeholder-shown), #s:focus {
-  width: 8em;
-  padding: 0 1ch;
-  caret-color: var(--foreground);
-  color: var(--foreground);
-}
-
-#s:placeholder-shown:not(:focus) {
-  cursor: pointer;
-}
-
-#s:placeholder-shown:focus::placeholder {
-  font-family: Regular;
-  color: var(--highlight-dark);
-}
-
 *::placeholder {
   color: var(--hyperlink);
   opacity: 1;
 }
 
-a, #s {
+a {
   background-image: linear-gradient(var(--highlight), var(--highlight));
   background-size: 100% 0.5rem;
   background-position: bottom left;
@@ -233,7 +206,7 @@ a, #s {
   transition: 0.15s ease;
 }
 
-a:hover, #s:hover, #s:focus, #s:not(:placeholder-shown) {
+a:hover {
   background-size: 100% 100%;
 }
 
