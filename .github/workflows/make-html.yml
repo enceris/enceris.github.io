@@ -17,11 +17,11 @@ jobs:
         uses: actions/checkout@v3
 
       - name: Install pandoc
-        run: sudo apt-get install -y pandoc
+        run: sudo apt-get install -y pandoc python3
 
       - name: Generate HTML files
         run: |
-          ./nue -b
+          python3 ./nue.py
 
       - name: Deploy
         uses: peaceiris/actions-gh-pages@v3
