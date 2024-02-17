@@ -1,0 +1,31 @@
+name: Make HTML
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  deploy:
+    runs-on: ubuntu-22.04
+    permissions:
+      contents: write
+    concurrency:
+      group: ${{ github.workflow }}-${{ github.ref }}
+    steps:
+      - name: Check out code
+        uses: actions/checkout@v3
+
+      - name: Install pandoc
+        run: sudo apt-get install -y pandoc
+
+      - name: Generate HTML files
+        run: |
+          ./nue -b
+
+      - name: Deploy
+        uses: peaceiris/actions-gh-pages@v3
+        if: github.ref == 'refs/heads/main'
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: .
