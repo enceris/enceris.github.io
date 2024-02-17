@@ -3,7 +3,7 @@
   <title>Kakutai</title>
   <link href='https://enceris.github.io/p/'/>
     <link href='https://enceris.github.io/p/atom.xml' rel='self' type='application/atom+xml' />
-    <updated>2024-02-17T18:59:43+00:00</updated>
+    <updated>2024-02-17T19:08:25+00:00</updated>
   <author>
     <name>Kakutai</name>
   </author>
@@ -12,15 +12,7 @@
 
   <entry>
       <title>Kakutai</title>
-      <link rel='alternate' href='https://enceris.github.io/p/3'/>
-        <id>https://enceris.github.io/p/3</id>
-        <published>1970-01-01T00:00:03+00:00</published>
-        <updated>1970-01-01T00:00:03+00:00</updated>
-        <summary>	AAAAAAAAA</summary>
-        <a href='/p/3' class='bold'>	Ch 3 test</a>
-        <content type='html'><p>--&gt;</p>
-<p>AAAAAAAAAAAAAAAaa</p></content>
-        <category term='	chapter'/><link rel='alternate' href='https://enceris.github.io/p/2'/>
+      <link rel='alternate' href='https://enceris.github.io/p/2'/>
         <id>https://enceris.github.io/p/2</id>
         <published>1970-01-01T00:00:02+00:00</published>
         <updated>1970-01-01T00:00:02+00:00</updated>
